@@ -1,2 +1,0 @@
-Trigger level set at [mV], -0.030
-C1_t[ns],C1_V[mV],C2_t[ns],C2_V[mV],C3_t[ns],C3_V[mV],C4_t[ns],C4_V[mV]

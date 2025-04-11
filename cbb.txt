@@ -1,1 +1,0 @@
-Trigger level set at [mV], -0.030
