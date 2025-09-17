@@ -12,9 +12,14 @@ import time
 import datetime
 from time import strftime, localtime
 import serial
-
+import glob
+import sys
 #try:
-ser=serial.Serial('COM10',57600,timeout=10)
+print('Do not forget to run as sudo')
+ports=glob.glob('/dev/ttyACM*')
+print(ports)
+ser=serial.Serial(ports[0],57600,timeout=10)
+
 # while True:
 # print(ser.readline().decode('utf-8'))
 # except KeyboardInterrupt:
